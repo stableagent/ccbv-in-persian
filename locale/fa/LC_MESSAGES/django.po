@@ -1,0 +1,149 @@
+# Persian (fa) translations for django-cbv-inspector.
+# Copyright (C) 2026 Refresh Oxford
+# This file is distributed under the same license as the django-cbv-inspector project.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: django-cbv-inspector\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-11 00:00+0000\n"
+"PO-Revision-Date: 2026-10-11 00:00+0000\n"
+"Last-Translator: Toast\n"
+"Language: fa\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: cbv/templates/base.html:6
+msgid "Django Class-Based-View Inspector"
+msgstr "بازرسی نمای‌های مبتنی بر کلاس جنگو"
+
+#: cbv/templates/base.html:7
+msgid "The best way to understand Django's class-based views is to see it in Classy CBV, so pick your version and jump in at the deep end."
+msgstr "بهترین راه برای درک نمای‌های مبتنی بر کلاس جنگو، مشاهده‌ی آن‌ها در Classy CBV است؛ پس نسخه‌ی خود را انتخاب کنید و مستقیماً وارد عمق آب شوید."
+
+#: cbv/templates/base.html:51
+msgid "Developed at"
+msgstr "توسعه‌یافته در"
+
+#: cbv/templates/base.html:52
+msgid "Source code"
+msgstr "کد منبع"
+
+#: cbv/templates/base.html:52
+msgid "and"
+msgstr "و"
+
+#: cbv/templates/base.html:53
+msgid "Contributors"
+msgstr "مشارکت‌کنندگان"
+
+#: cbv/templates/base.html:54
+msgid "on"
+msgstr "در"
+
+#: cbv/templates/home.html:12
+msgid "Classy Class-Based Views."
+msgstr "نمای‌های مبتنی بر کلاس."
+
+#: cbv/templates/home.html:13
+msgid "Detailed descriptions, with full methods and attributes, for each of <a href=\"https://djangoproject.com/\">Django</a>'s class-based generic views."
+msgstr "توصیف‌های دقیق، با متدها و ویژگی‌های کامل، برای هر یک از نمای‌های عمومی مبتنی بر کلاس <a href=\"https://djangoproject.com/\">جنگو</a>."
+
+#: cbv/templates/home.html:20
+msgid "Did you know?"
+msgstr "می‌دانستید؟"
+
+#: cbv/templates/home.html:23
+msgid "will take you straight to the class you're looking for."
+msgstr "شما را مستقیماً به کلاسی که دنبالش هستید می‌برد."
+
+#: cbv/templates/home.html:30
+msgid "Show more"
+msgstr "نمایش بیشتر"
+
+#: cbv/templates/home.html:32
+msgid "Start Here for %(project)s."
+msgstr "برای %(project)s از اینجا شروع کنید."
+
+#: cbv/templates/home.html:39
+msgid "What are class-based views anyway?"
+msgstr "نمای‌های مبتنی بر کلاس در نهایت چیست؟"
+
+#: cbv/templates/home.html:41
+msgid "Django's class-based generic views provide abstract classes implementing common web development tasks. These are very powerful, and heavily-utilise Python's object orientation and multiple inheritance in order to be extensible. This means they're more than just a couple of generic shortcuts &mdash; they provide utilities which can be mixed into the much more complex views that you write yourself."
+msgstr "نمای‌های عمومی مبتنی بر کلاس جنگو، کلاس‌های انتزاعی‌ای فراهم می‌کنند که وظیفه‌های رایج توسعه‌ی وب را پیاده‌سازی می‌کنند. این‌ها بسیار قدرتمندند و برای قابل‌توسعه بودن، به‌شدت از شی‌گرایی پایتون و ارث‌بری چندگانه بهره می‌برند. یعنی آن‌ها فراتر از چند میان‌بر عمومی ساده‌اند — ابزارهایی فراهم می‌کنند که می‌توان آن‌ها را به نمای‌های بسیار پیچیده‌تری که خودتان می‌نویسید، مخلوط کرد."
+
+#: cbv/templates/home.html:50
+msgid "Great! So what's the problem?"
+msgstr "عالی! پس مشکل چیست؟"
+
+#: cbv/templates/home.html:52
+msgid "All of this power comes at the expense of simplicity. For example, trying to work out exactly which method you need to customise, and what its keyword arguments are, on your <code>UpdateView</code> can feel a little like wading through spaghetti &mdash; it has 10 separate ancestors (plus <code>object</code>), spread across 3 different python files. This site shows you exactly what you need to know."
+msgstr "تمام این قدرت به قیمت سادگی است. به‌عنوان مثال، تلاش برای درک دقیق اینکه کدام متد را باید سفارشی کنید و آرگومان‌های کلیدی آن چیست، در <code>UpdateView</code> شما می‌تواند کمی شبیه سرگردانی در اسپاگتی باشد — آن ۱۰ جدّ مجزا (به‌علاوه <code>object</code>) دارد که در ۳ فایل پایتون مختلف پخش شده‌اند. این سایت دقیقاً هر آنچه لازم است بدانید را نشان می‌دهد."
+
+#: cbv/templates/home.html:61
+msgid "How does this site help?"
+msgstr "این سایت چگونه کمک می‌کند؟"
+
+#: cbv/templates/home.html:63
+msgid "To make things easier, we've taken all the attributes and methods that every view defines or inherits, and flattened all that information onto one comprehensive page per view. Check out <a href=\"%(updateview_url)s\">UpdateView</a>, for example."
+msgstr "تا کار آسان‌تر شود، تمام ویژگی‌ها و متدهایی را که هر نما تعریف می‌کند یا از آن‌ها ارث می‌برد، برداشته و تمام آن اطلاعات را در یک صفحه‌ی جامع برای هر نما تخت کرده‌ایم. به‌عنوان مثال، <a href=\"%(updateview_url)s\">UpdateView</a> را بررسی کنید."
+
+#: cbv/templates/home.html:86
+msgid "Show less"
+msgstr "نمایش کمتر"
+
+#: cbv/templates/404.html:11
+msgid "The page you are looking for can't be found. Try our <a href=\"%(home_url)s\">Homepage</a>."
+msgstr "صفحه‌ای که دنبالش هستید پیدا نشد. <a href=\"%(home_url)s\">صفحه‌ی اصلی</a> ما را امتحان کنید."
+
+#: cbv/templates/500.html:11
+msgid "Oops, look like we broke something. We received a notification and will fix it as soon as possible. In the meantime, you can go back to our <a href=\"/\">Homepage</a>."
+msgstr "اوه! به نظر می‌رسد چیزی را خراب کرده‌ایم. ما یک اطلاعیه دریافت کرده‌ایم و هر چه زودتر آن را تعمیر خواهیم کرد. در این بین، می‌توانید به <a href=\"/\">صفحه‌ی اصلی</a> ما بروید."
+
+#: cbv/templates/cbv/klass_detail.html:48
+msgid "Hierarchy diagram"
+msgstr "نمودار سلسله‌مراتب"
+
+#: cbv/templates/cbv/klass_detail.html:54
+msgid "Documentation"
+msgstr "مستندات"
+
+#: cbv/templates/cbv/klass_detail.html:71
+msgid "Ancestors"
+msgstr "جدّها"
+
+#: cbv/templates/cbv/klass_detail.html:71
+msgid "Method Resolution Order"
+msgstr "ترتیب رفع متد"
+
+#: cbv/templates/cbv/klass_detail.html:87
+msgid "Descendants"
+msgstr "نوادگان"
+
+#: cbv/templates/cbv/klass_detail.html:101
+msgid "Attributes"
+msgstr "ویژگی‌ها"
+
+#: cbv/templates/cbv/klass_detail.html:106
+msgid "Defined in"
+msgstr "تعریف‌شده در"
+
+#: cbv/templates/cbv/klass_detail.html:137
+msgid "Expand"
+msgstr "گسترش"
+
+#: cbv/templates/cbv/klass_detail.html:138
+msgid "Collapse"
+msgstr "جمع‌شدن"
+
+#: cbv/templates/cbv/klass_detail.html:140
+msgid "Methods"
+msgstr "متدها"
+
+#: cbv/templates/cbv/version_detail.html:9
+msgid "Class-based views in %(project)s."
+msgstr "نمای‌های مبتنی بر کلاس در %(project)s."

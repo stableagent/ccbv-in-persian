@@ -1,12 +1,13 @@
 {% extends 'base.html' %}
 
+{% load i18n %}
 {% load static %}
 
 {% block title %}{{ project }}{% endblock %}
 
 
 {% block meta_description %}
-    Class-based views in {{ project }}.
+    {% blocktrans with project=project trimmed %}Class-based views in {{ project }}.{% endblocktrans %}
 {% endblock meta_description %}
 
 
@@ -18,7 +19,7 @@
 {% block content %}
     <div class="span12">
         <div id='klass-buttons'>
-            <span class="btn btn-small" id="toggle-secondary-klasses">Show more</span>
+            <span class="btn btn-small" id="toggle-secondary-klasses">{% trans "Show more" %}</span>
         </div>
         <h1>{{ project }}</h1>
         <div class="row">

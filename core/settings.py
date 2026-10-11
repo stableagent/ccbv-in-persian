@@ -31,6 +31,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "whitenoise.middleware.WhiteNoiseMiddleware",
+    "django.middleware.locale.LocaleMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
@@ -50,8 +51,16 @@ DATABASES = {"default": env.dj_db_url("DATABASE_URL", default="sqlite:///ccbv.sq
 DEFAULT_AUTO_FIELD = "django.db.models.AutoField"
 
 LANGUAGE_CODE = "en"
+
+LANGUAGES = [
+    ("en", "English"),
+    ("fa", "Persian"),
+]
+
+LOCALE_PATHS = [BASE_DIR / "locale"]
+
 TIME_ZONE = "Europe/London"
-USE_I18N = False
+USE_I18N = True
 USE_TZ = False
 
 STATIC_ROOT = BASE_DIR / "staticfiles"
